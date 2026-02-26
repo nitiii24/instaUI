@@ -82,15 +82,123 @@ html, body {
     /* display: flex; */
 }
 .top-sidenav{
+    height: 10vh;
+    width: 100%;
     display: flex;
     align-items: center;
-    
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 .top-sidenave h1{
 font-size: medium;
+font-family:sans-serif;
+
 
 }
+.top-sidenav i{
+font-size: 30px;
+ 
+}
+.profile-sidebar{
+    height: 10vh;
+    width: 100%;
+    margin-top: 30px;
+
+}
+.profile-sidebar h6{
+    padding-top: 0px;
+}
+.follower{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   justify-content: center; 
+   margin-top: 20px;
+   margin-left: 10px;
+ 
+}
+.bio
+{
+    height: 10vh;
+    width: 100%;
+   
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.icons{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+    
+
+}
+.icon-img1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    /* padding-top: 50px; */
+}
+.icon-img2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    /* padding-top: 50px; */
+
+}
+.icon-img3{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    /* padding-top: 50px; */
+}
+.icon-img4{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+     margin-top: 50px;
+    margin-left: 20px;
+    /* padding-top: 50px; */
+}
+.icon-img5{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    /* padding-top: 50px; */
+}
+.icons i{
+    font-size: 25px;
+
+}
+
+
+
+
+   
+
 .rightcontainer{
     height: 100%;
     width: calc(100% - 20%);
@@ -136,7 +244,7 @@ font-size: medium;
     
 }
 .box button{
-    background-color: #EB0A6E ;
+    background-color: #F63447 ;
     color: white;
      padding: 10px 20px; 
     /* margin: 20px; */
@@ -235,7 +343,7 @@ h2{
     position: relative;
 }
 .posts{
-height: 70vh;
+height: 80vh;
 width: 50%;
 
 margin-bottom: 3%;
@@ -269,7 +377,7 @@ margin-left: 15%;
     object-fit: cover;
 }
 .post-image-container{
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     background-color: #000;
     border-radius: 20px;
@@ -297,6 +405,6 @@ margin-left: 15%;
 .engagement-section i{
     padding: 10px;
     margin: 10px;
-    gap: 10px;
+    gap: 50px;
 
 }
